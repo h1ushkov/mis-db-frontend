@@ -69,7 +69,7 @@ table {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 20px;
-  font-size:14px;
+  font-size:12px;
   
 }
 
@@ -82,9 +82,8 @@ th {
 }
 td{
   border: 1px solid #ddd;
-  padding: 8px;
   text-align: left;
-  font-family: monospace;
+  font-family: 'Cascadia Code','Courier New', Courier, monospace;
   font-size: 14px;
 }
 th {

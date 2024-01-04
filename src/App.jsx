@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import PartsList from './PartsList';
-import PartForm from './PartsForm';
+import PartsList from './components/PartsList';
+import PartForm from './components/PartsForm';
 import Dashboard from './Dashboard';
 const App = () => {
   const [parts, setParts] = useState([]);

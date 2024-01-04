@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import AvailabilityFilter from './AvailabilityFilter';
-import PartsStatistics from './PartsStatistics';
-import ModelStatistics from './ModelStatistics';
-import PriceRangeStatistics from './PriceRangeStatistics';
-import ManufacturerStatistics from './ManufacterStatistics';
+import AvailabilityFilter from './components/AvailabilityFilter';
+import PartsStatistics from './components/PartsStatistics';
+import ModelStatistics from './components/ModelStatistics';
+import PriceRangeStatistics from './components/PriceRangeStatistics';
+import ManufacturerStatistics from './components/ManufacterStatistics';
 
 const Dashboard = () => {
   const [isAvailabilityFilterVisible, setAvailabilityFilterVisibility] = useState(false);
